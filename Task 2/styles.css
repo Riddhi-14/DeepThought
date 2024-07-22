@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#content {
+    display: flex;
+}
+
+#itemList {
+    list-style: none;
+    padding: 0;
+    margin-right: 20px;
+    width: 200px;
+}
+
+#itemList li {
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#itemDetails {
+    flex-grow: 1;
+}
+
+#itemDetails img {
+    max-width: 100%;
+}
